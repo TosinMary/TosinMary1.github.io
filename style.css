@@ -1,0 +1,81 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+outline: none;
+}
+	body{
+	background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("image.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:"Courier New",Courier,Monospace;
+	border-radius: 20px;
+}
+.cover{
+	top:10%;
+	left:35%;
+	position: absolute;
+	padding: 30px;
+	width: 400px;
+	height: 550px;
+border-radius:20px;
+line-height: 20px;
+background-color:lightblue;
+}
+.cover h2{
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	text-align: center;
+	font-size: 34px;
+	font-style: bold;
+	color: rgba(0,0,0,0.9);
+}
+.access{
+	letter-spacing:1px;
+	text-shadow: 2px; 
+	font-style: bold;
+	font-weight: bold;
+}
+.input-field{
+width: 100%;
+padding:7px;
+margin: 2px;
+border: 4px lightblue;
+border-radius:10px;
+cursor: pointer;
+}
+.cover textarea{
+	width: 100%;
+	height: 30%;
+	resize: none;
+	padding: 5px;
+	border: 1px goldenrod;
+	border-radius: 20px;
+}
+.btn{
+	width: 100%;
+	margin-top: 5px;
+	padding:10px;
+	border: 1px solid lightblue;
+	border-radius: 20px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	background: navy;
+	opacity: 0.9;
+	color: white;
+}
+.btn:hover{
+	background: royalblue;
+}
+.cover #error_message{
+margin-bottom:2px;
+padding:0px;
+background:royalblue;
+text-align: center;
+font-size: 20px;
+color: white;
+border: 1px navy;
+border-radius: 2px;
+transition: all 0.5s ease;
+
+}
